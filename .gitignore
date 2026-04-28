@@ -1,0 +1,46 @@
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# MemoryCaptures
+MemoryCaptures/
+
+# Asset meta data (keep .meta files)
+!*.meta
+
+# IDE
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash reports
+sysinfo.txt
+
+# Unity cache server
+CacheServer/
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Addressables
+ServerData/
