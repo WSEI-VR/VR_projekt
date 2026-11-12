@@ -8654,7 +8654,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 338423865605390595, guid: 813642986a89f3a45a88639d20996f29,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7749017423072333352}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813642986a89f3a45a88639d20996f29, type: 3}
 --- !u!4 &625825809282665917 stripped
@@ -11211,6 +11215,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593f4a53382a84bc99e72fc64f77bdad, type: 3}
+--- !u!1001 &3360728534257867081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 21114113}
+    m_Modifications:
+    - target: {fileID: 155566019766369798, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_Name
+      value: Climbing Mini Game (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49fbd507685464d78aa159f8f5d4c11e, type: 3}
 --- !u!224 &3572130606852948574 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8211786623534212846, guid: 95bd29654e15ad844be6210374a75967,
@@ -11922,6 +11994,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 54698371848097488, guid: f300f7b935a7847bb9f64ba531db6d4d,
     type: 3}
   m_PrefabInstance: {fileID: 8402281819704407221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7749017423072333352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3530056059012558799, guid: 49fbd507685464d78aa159f8f5d4c11e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3360728534257867081}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7753720435027582111
 PrefabInstance:
