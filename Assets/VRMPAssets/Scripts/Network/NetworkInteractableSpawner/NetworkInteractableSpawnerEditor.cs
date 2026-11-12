@@ -1,4 +1,4 @@
-using UnityEngine.UIElements;
+﻿using UnityEngine.UIElements;
 using UnityEngine.XR.Templates.VRMultiplayer;
 using static UnityEngine.XR.Templates.VRMultiplayer.NetworkInteractableSpawner;
 using UnityEngine;
@@ -115,12 +115,16 @@ public class NetworkInteractableSpawnerEditor : Editor
         }
 
         // Return the finished Inspector UI.
-            return root;
+        return root;
     }
 
     private string GetFoldoutDataKey(SerializedObject serializedObject)
     {
-        return $"{serializedObject.targetObject.GetInstanceID()}.{serializedObject.targetObject.name}";
+#if UNITY_6000_4_OR_NEWER
+        return $"{serializedObject.targetObject.GetEntityId()}.{serializedObject.targetObject.name}";
+#else
+        return serializedObject.targetObject.name;
+#endif
     }
 }
 
@@ -205,7 +209,7 @@ public class GizmoHelper_PropertyDrawer : PropertyDrawer
             {
                 if (container.Contains(meshGizmoColor))
                     container.Remove(meshGizmoColor);
-                if(container.Contains(meshPreviews))
+                if (container.Contains(meshPreviews))
                     container.Remove(meshPreviews);
             }
         }
